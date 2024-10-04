@@ -52,7 +52,8 @@ def calc_winner2():
             winner+= 1
             
         if accum == 0:
-            print(f"O vencedor é o participante:a {winner}")
+            print("")
+            print(f"O vencedor é o participante {winner}")
             
 inf_participantes()
 calc_winner2()
